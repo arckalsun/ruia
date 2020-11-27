@@ -526,4 +526,4 @@ class Spider(SpiderHook):
         """
         self.logger.info(f"Stopping spider: {self.name}")
         await self.cancel_all_tasks()
-        self.loop.stop()
+        # self.loop.stop()
